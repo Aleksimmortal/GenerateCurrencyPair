@@ -12,7 +12,32 @@ namespace CurrencyPair
             public string? CurrencyPair { get; set; }
             public double Value { get; set; }
 
-            public void PrintCurrencyPair()
+
+
+            public void Create(SaveCurrencyPair notesPair)
+            {
+                var currencyNotes = new List<SaveCurrencyPair>();
+                if (File.Exists(CurrencyPairNote))
+                {
+                    using (FileStream fs = new FileStream(CurrencyPairNote, FileMode.OpenOrCreate))
+                    {
+                        currencyNotes = JsonSerializer.Deserialize<List<SaveCurrencyPair>>(fs);
+                    }
+                }
+                currencyNotes.Add(notesPair);
+                Write(currencyNotes);
+
+            }
+
+            public void Write(List<SaveCurrencyPair> notesPair)
+            {
+                using (FileStream fs = new FileStream(CurrencyPairNote, FileMode.OpenOrCreate))
+                {
+                    JsonSerializer.Serialize<List<SaveCurrencyPair>>(fs, notesPair);
+                }
+            }
+        
+        public void PrintCurrencyPair()
             {
                 Console.WriteLine($"Дата: {Date} Валютная пара: {CurrencyPair} Отношение валютных пар: {Value}");
             }
@@ -43,29 +68,7 @@ namespace CurrencyPair
         }
 
         
-        public void Create(SaveCurrencyPair notesPair)
-        {
-            var currencyNotes = new List<SaveCurrencyPair>();
-            if (File.Exists(CurrencyPairNote))
-            {
-                using (FileStream fs = new FileStream(CurrencyPairNote, FileMode.OpenOrCreate))
-                {
-                    currencyNotes = JsonSerializer.Deserialize<List<SaveCurrencyPair>>(fs);
-                }
-            }
-            currencyNotes.Add(notesPair);
-            Write(notesPair);
-
-        }
-
-        public void Write (List<SaveCurrencyPair> notesPair)
-        {
-            using (FileStream fs = new FileStream(CurrencyPairNote, FileMode.OpenOrCreate))
-            {
-                JsonSerializer.Serialize<List<SaveCurrencyPair>>(fs, notesPair);
-            }
-        }
-    }
+        
     
 }
 
