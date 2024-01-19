@@ -5,14 +5,39 @@ namespace CurrencyPair
 {
     class Program
     {
-        
+        private const string CurrencyPairNote = "C:\\Users\\pollo\\OneDrive\\Desktop\\проект\\Currency.json";
         public class SaveCurrencyPair
         {
             public DateTime Date { get; set; }
             public string? CurrencyPair { get; set; }
             public double Value { get; set; }
 
-            public void PrintCurrencyPair()
+
+
+            public void Create(SaveCurrencyPair notesPair)
+            {
+                var currencyNotes = new List<SaveCurrencyPair>();
+                if (File.Exists(CurrencyPairNote))
+                {
+                    using (FileStream fs = new FileStream(CurrencyPairNote, FileMode.OpenOrCreate))
+                    {
+                        currencyNotes = JsonSerializer.Deserialize<List<SaveCurrencyPair>>(fs);
+                    }
+                }
+                currencyNotes.Add(notesPair);
+                Write(currencyNotes);
+
+            }
+
+            public void Write(List<SaveCurrencyPair> notesPair)
+            {
+                using (FileStream fs = new FileStream(CurrencyPairNote, FileMode.OpenOrCreate))
+                {
+                    JsonSerializer.Serialize<List<SaveCurrencyPair>>(fs, notesPair);
+                }
+            }
+        
+        public void PrintCurrencyPair()
             {
                 Console.WriteLine($"Дата: {Date} Валютная пара: {CurrencyPair} Отношение валютных пар: {Value}");
             }
@@ -30,8 +55,7 @@ namespace CurrencyPair
         public static void Count(object obj)
         {
             Random random = new Random();
-            for (int i = 0; i < 1; i++)
-            {
+           
                 var saveCP = new SaveCurrencyPair
                 {
                     Date = DateTime.Now,
@@ -39,34 +63,12 @@ namespace CurrencyPair
                     Value = Math.Round(((random.NextDouble()* 0.019)+ 0.011),3)
                 };
                 saveCP.PrintCurrencyPair();
-                Create(saveCP);
+                saveCP.Create(saveCP);
             }
         }
 
-        private string CurrencyPairNote = "D:\\Академия TOP\\Проект Wallet\\Currency.json";
-        public void Create(SaveCurrencyPair notesPair)
-        {
-            var currencyNotes = new List<SaveCurrencyPair>();
-            if (File.Exists(CurrencyPairNote))
-            {
-                using (FileStream fs = new FileStream(CurrencyPairNote, FileMode.OpenOrCreate))
-                {
-                    currencyNotes = JsonSerializer.Deserialize<List<SaveCurrencyPair>>(fs);
-                }
-            }
-            currencyNotes.Add(notesPair);
-            Write(notesPair);
-
-        }
-
-        public void Write (List<SaveCurrencyPair> notesPair)
-        {
-            using (FileStream fs = new FileStream(CurrencyPairNote, FileMode.OpenOrCreate))
-            {
-                JsonSerializer.Serialize<List<SaveCurrencyPair>>(fs, notesPair);
-            }
-        }
-    }
+        
+        
     
 }
 
