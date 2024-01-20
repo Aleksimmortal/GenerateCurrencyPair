@@ -22,8 +22,6 @@ namespace GenerateCurrencyPair
             }
             currencyNotes.Add(notesPair);
             Write(currencyNotes);
-            \\
-            999
 
         }
 
