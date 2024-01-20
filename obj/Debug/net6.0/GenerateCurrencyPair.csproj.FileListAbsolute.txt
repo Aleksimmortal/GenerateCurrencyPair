@@ -1,0 +1,15 @@
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\obj\Debug\net6.0\GenerateCurrencyPair.csproj.AssemblyReference.cache
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\obj\Debug\net6.0\GenerateCurrencyPair.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\obj\Debug\net6.0\GenerateCurrencyPair.AssemblyInfoInputs.cache
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\obj\Debug\net6.0\GenerateCurrencyPair.AssemblyInfo.cs
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\obj\Debug\net6.0\GenerateCurrencyPair.csproj.CoreCompileInputs.cache
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\bin\Debug\net6.0\GenerateCurrencyPair.exe
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\bin\Debug\net6.0\GenerateCurrencyPair.deps.json
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\bin\Debug\net6.0\GenerateCurrencyPair.runtimeconfig.json
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\bin\Debug\net6.0\GenerateCurrencyPair.dll
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\bin\Debug\net6.0\GenerateCurrencyPair.pdb
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\obj\Debug\net6.0\GenerateCurrencyPair.dll
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\obj\Debug\net6.0\refint\GenerateCurrencyPair.dll
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\obj\Debug\net6.0\GenerateCurrencyPair.pdb
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\obj\Debug\net6.0\GenerateCurrencyPair.genruntimeconfig.cache
+C:\Users\Digital_Frontier\source\repos\GenerateCurrencyPair\obj\Debug\net6.0\ref\GenerateCurrencyPair.dll
