@@ -22,8 +22,6 @@ namespace GenerateCurrencyPair
             }
             currencyNotes.Add(notesPair);
             Write(currencyNotes);
-            55555
-                66666
         }
 
         private void Write(List<Core> notesPair)
