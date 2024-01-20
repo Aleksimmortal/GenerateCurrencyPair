@@ -22,6 +22,7 @@ namespace GenerateCurrencyPair
             }
             currencyNotes.Add(notesPair);
             Write(currencyNotes);
+            \\
 
         }
 
