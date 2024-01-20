@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Digital_Frontier\\.nuget\\packages\\": {}
+    "C:\\Users\\student.TOP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Digital_Frontier\\source\\repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj",
+      "projectUniqueName": "C:\\Users\\student.TOP\\Source\\Repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj",
       "projectName": "GenerateCurrencyPair",
-      "projectPath": "C:\\Users\\Digital_Frontier\\source\\repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj",
-      "packagesPath": "C:\\Users\\Digital_Frontier\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Digital_Frontier\\source\\repos\\GenerateCurrencyPair\\obj\\",
+      "projectPath": "C:\\Users\\student.TOP\\Source\\Repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj",
+      "packagesPath": "C:\\Users\\student.TOP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\student.TOP\\Source\\Repos\\GenerateCurrencyPair\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Digital_Frontier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\student.TOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
