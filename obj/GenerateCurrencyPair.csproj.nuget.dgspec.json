@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj": {}
+    "C:\\Users\\User\\source\\repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj": {
+    "C:\\Users\\User\\source\\repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj",
         "projectName": "GenerateCurrencyPair",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\GenerateCurrencyPair\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\GenerateCurrencyPair\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

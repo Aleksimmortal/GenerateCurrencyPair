@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WtWbMuAob2qhDuorSY2vnjzxZxAC405U4DA+bsRkVWYzMceoVrRWVeCBMybhYvhymRDGZBnM5Go/yRmPkU5Arw==",
+  "dgSpecHash": "/JGDt8QOuVMuKeuQEamDtL9EV3yCR4BO2+LWmRrvqzd4ByXehnr6moIeDqD/+LBX/qChnKLtUlvDJhYJ+0LZZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\GenerateCurrencyPair\\GenerateCurrencyPair.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
